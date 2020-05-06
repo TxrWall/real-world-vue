@@ -1,9 +1,10 @@
 <template>
-  <div class="iconW-parent">
+  <div>
     <div class="icon-wrapper">
       <svg class="icon" :width="width" :height="height">
         <use v-bind="{ 'xlink:href': '/feather-sprite.svg#' + name }" />
       </svg>
+      <slot></slot>
     </div>
   </div>
 </template>
@@ -25,9 +26,6 @@ export default {
 </script>
 
 <style scoped>
-.iconW-parent {
-  float: left;
-}
 .icon-wrapper {
   display: inline-flex;
   align-items: center;
