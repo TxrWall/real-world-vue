@@ -7,7 +7,9 @@
         "name": "Adam"
       },
       "category": "animal welfare",
-      "organizer": { "name": "Adam" },
+      "organizer": {
+        "name": "Adam"
+      },
       "title": "Cat Cabaret",
       "description": "Yay felines!",
       "location": "Meow Town",
@@ -22,7 +24,9 @@
         "name": "Adam"
       },
       "category": "animal welfare",
-      "organizer": { "name": "Adam" },
+      "organizer": {
+        "name": "Adam"
+      },
       "title": "Kitty Cluster",
       "description": "Yay cats!",
       "location": "Catlandia",
@@ -37,7 +41,9 @@
         "name": "Adam"
       },
       "category": "animal welfare",
-      "organizer": { "name": "Adam" },
+      "organizer": {
+        "name": "Adam"
+      },
       "title": "Puppy Parade",
       "description": "Yay pups!",
       "location": "Puptown ",
@@ -51,6 +57,24 @@
           "name": "Melissa Bryant"
         }
       ]
+    },
+    {
+      "id": 9905870,
+      "user": {
+        "id": "abc123",
+        "name": "Wallace Teixeira"
+      },
+      "category": "nature",
+      "organizer": {
+        "id": "abc123",
+        "name": "Wallace Teixeira"
+      },
+      "title": "Working",
+      "description": "Lorem ipsum dolor sit amet",
+      "location": "São Paulo",
+      "date": "2020-05-02T02:04:00.000Z",
+      "time": "2:00",
+      "attendees": []
     }
   ]
 }
