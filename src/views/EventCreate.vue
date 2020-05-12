@@ -72,6 +72,7 @@ export default {
       this.$store
         .dispatch('createEvent', this.event)
         .then(() => {
+          // tem que haver o return no action 'createEvent' em store para que abaixo só seja executado após o evento ser adicionado ao state
           this.$router.push({
             name: 'event-show',
             params: { id: this.event.id }
