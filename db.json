@@ -201,6 +201,42 @@
       "date": "",
       "time": "",
       "attendees": []
+    },
+    {
+      "id": 8734124,
+      "user": {
+        "id": "abc123",
+        "name": "Wallace"
+      },
+      "category": "animal welfare",
+      "organizer": {
+        "id": "abc123",
+        "name": "Wallace"
+      },
+      "title": "qqqqqqqqqq",
+      "description": "wwwwwwwwwww",
+      "location": "eeeeeeeeee",
+      "date": "2020-05-06T23:18:00.000Z",
+      "time": "4:00",
+      "attendees": []
+    },
+    {
+      "id": 2116817,
+      "user": {
+        "id": "abc123",
+        "name": "Wallace"
+      },
+      "category": "education",
+      "organizer": {
+        "id": "abc123",
+        "name": "Wallace"
+      },
+      "title": "asdfasdfasd",
+      "description": "fasdfasdf",
+      "location": "asdfasd",
+      "date": "2020-05-08T23:59:00.000Z",
+      "time": "3:00",
+      "attendees": []
     }
   ]
 }
