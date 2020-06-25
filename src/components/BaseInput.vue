@@ -7,6 +7,7 @@
       @input="updateValue"
       v-bind="$attrs"
       class="field"
+      v-on="listeners"
     />
   </div>
 </template>
@@ -20,6 +21,14 @@ export default {
       default: ''
     },
     value: [String, Number]
+  },
+  computed: {
+    listeners() {
+      return {
+        ...this.$listeners,
+        input: this.updateValue
+      }
+    }
   },
   methods: {
     updateValue(event) {
